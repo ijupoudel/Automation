@@ -30,7 +30,7 @@ for users in user:
     print(users)
     username.send_keys(users)
     password = driver.find_element_by_id("id_password")
-    password.send_keys('wv1nep@l')
+    password.send_keys('password')
     driver.find_element_by_id("login").click()
     driver.implicitly_wait(5)
     driver.find_element_by_xpath("//a[@class='user-avatar is-horiz is-center is-align-center']").click()
