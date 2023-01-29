@@ -52,24 +52,24 @@ def loginuserzitestaging(driver):
 def loginuserziteprod(driver):
     driver.get('https://app.zite.io/')
     username = driver.find_element_by_id("id_email_or_username")
-    username.send_keys('super_admin')
+    username.send_keys('username')
     password = driver.find_element_by_id("id_password")
-    password.send_keys('TX/BKiwzr6)8')
+    password.send_keys('password')
     driver.find_element_by_id("login").click()
 
 def loginusercfp(driver):
     driver.get('https://www.commonfeedbackplatform.org/')
     username = driver.find_element_by_id("id_email_or_username")
-    username.send_keys('cfp_admin')
+    username.send_keys('username')
     password = driver.find_element_by_id("id_password")
-    password.send_keys('ZjrabE3ab4hrIvx3u2EZ')
+    password.send_keys('password')
     driver.find_element_by_id("login").click()
 
 def loginuserzitemagaer(driver):
     driver.get('https://app.zitemanager.org/')
     username = driver.find_element_by_id("id_email_or_username")
-    username.send_keys('admin_zitemanager')
+    username.send_keys('username')
     password = driver.find_element_by_id("id_password")
-    password.send_keys('kyrv6CDCYJgHnvfF')
+    password.send_keys('password')
     driver.find_element_by_id("login").click()
 
